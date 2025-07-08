@@ -1,0 +1,176 @@
+Tech Stack React.js/Nodejs/MongoDB Atlas/ Express and any suggestions
+
+I want to create a instagram like sharing application for supermarkets in store specials,Instagram-like social sharing application specifically focused on supermarket in-store specials. A concept that combines social media functionality with retail marketing.
+
+
+WHY PAY MORE, WHEN YOU SHARE AND SAVE MORE!
+iShopp lets you upload, find and share great instore brand special offers.whenever,wherever
+
+About Our App
+You can now check for the latest prices and special promotions, discounts, reviews and lowest prices in real time on your smartphone and share with friends and family instantly. Save time, trips and money by going through your grocery list quickly and easily share your grocery list with family, join forces with other savvy shoppers to find the best prices for anything under the sun.
+
+
+Snap-Scan-Share
+As simple as 1,2,3 see the latest instore special from supermarket to retail and share in realtime with friends and family with so many features to make it eay for someone to not to miss or lose out and save.
+
+Real-Time Specials
+Specials are uploaded in real-time and shared with amazing sharing and and more features.
+
+Live Sharing
+Live sharing allows the client to promote a brand and share live instore savings with other members.
+
+iShopp Messenger
+Ishopp Messenger is a feature whereby members can discuss any special or pop up happening and the messenger has a colloborative option find out more.
+
+Instore Savings Locator
+iShopp provides a map to locate the nearest stores for best pricing and specials. If you find a good deal, save it instantly to your iShopp shopping list and share with friend and family You can also see what your friends are up to by viewing their profiles.
+
+Token Payments
+iShopp tokens is saving currency that can be shared , used and much more
+
+How The App Works?
+
+Sign-Up
+Sign up for an account to unlock all the amazing features of our app. It's quick and easy! Simply provide your basic information and create a secure password to get started.
+
+Upload Special
+Share your special moments with friends and family by uploading photos and videos directly from your device. Whether it's a birthday celebration, a vacation, or a memorable event, our app allows you to effortlessly store and share your precious memories.
+
+Create
+Unleash your creativity with our app's powerful editing tools. Enhance your specials savings posts with filters, add captions, apply artistic effects, and customize them to your heart's desire. With our intuitive interface, creating stunning visuals has never been easier.
+
+Share
+Spread the joy by sharing your saving specials with everyone. Seamlessly share your posts and videos on social media platforms or directly with your friends and family. Let your creativity shine and inspire others with your unique perspective.
+
+Stay connected and access exclusive features with our mobile app.Get real-time updates, personalized recommendations, and special offers right at your fingertips.
+
+
+You can now check for the latest prices and special promotions, discounts, reviews and lowest prices in real time on your smartphone and share with friends and family instantly. Save time, trips and money by going through your grocery list quickly and easily share your grocery list with family, join forces with other savvy shoppers to find the best prices for anything under the sun.
+
+
+
+iShopp lets you upload, find and share great instore brand special offers.whenever,wherever
+
+
+\= SPEC-1: iShopp Mobile Application
+\:sectnums:
+\:toc:
+
+\== Background
+
+The iShopp mobile application is conceived as a community‑driven platform that turns everyday shoppers into real‑time contributors of in‑store specials, price drops, and pop‑up promotions. Traditional printed catalogues and scattered online ads make it difficult for consumers to know which retailer has the best deal at any given moment. By enabling users to **snap**, **scan**, and **share** instant offers as they encounter them, iShopp bridges this information gap and helps households stretch their budgets.
+
+Smartphone penetration, high mobile‑data coverage, and rising food and fuel costs mean that price‑sensitive consumers constantly look for ways to coordinate trips and reduce spend. iShopp leverages these trends by:
+
+* Crowdsourcing geo‑tagged promotions that expire quickly (e.g., same‑day bakery markdowns, limited‑stock clearance deals).
+* Aggregating retailer flyers and official APIs where available to compare against user‑generated prices.
+* Offering collaborative shopping lists so families and friends can split tasks, avoid duplicate purchases, and jointly unlock bulk‑buy savings.
+* Introducing an in‑app **token** system that gamifies contributions (earn tokens for verified uploads) and enables micro‑rewards or cash‑back redemptions with partner brands.
+
+The ultimate business goal is to build a data pipeline of hyper‑local pricing intelligence that can be monetised through brand promotions, anonymous market insights, and affiliate revenue, while giving end‑users a compelling reason to return daily.
+
+
+____________________________________________________________________________________
+
+
+
+WS Co\= SPEC-1 v1.0: iShopp Mobile Application \:sectnums: \:toc:
+
+\== Background
+
+The iShopp mobile application is conceived as a community‑driven platform that turns everyday shoppers into real‑time contributors of in‑store specials, price drops, and pop‑up promotions. Traditional printed catalogues and scattered online ads make it difficult for consumers to know which retailer has the best deal at any given moment. By enabling users to **snap**, **scan**, and **share** instant offers as they encounter them, iShopp bridges this information gap and helps households stretch their budgets.
+
+Smartphone penetration, high mobile‑data coverage, and rising food and fuel costs mean that price‑sensitive consumers constantly look for ways to coordinate trips and reduce spend. iShopp leverages these trends by:
+
+* Crowdsourcing geo‑tagged promotions that expire quickly (e.g., same‑day bakery markdowns, limited‑stock clearance deals).
+* Aggregating retailer flyers and official APIs where available to compare against user‑generated prices.
+* Offering collaborative shopping lists so families and friends can split tasks, avoid duplicate purchases, and jointly unlock bulk‑buy savings.
+* Introducing an in‑app **token** system that gamifies contributions (earn tokens for verified uploads) and enables micro‑rewards or cash‑back redemptions with partner brands.
+
+The ultimate business goal is to build a data pipeline of hyper‑local pricing intelligence that can be monetised through brand promotions, anonymous market insights, and affiliate revenue, while giving end‑users a compelling reason to return daily.
+
+\== Requirements
+
+The following requirements are categorized using the **MoSCoW** framework.
+
+\=== Must Have
+
+* **User onboarding (email, mobile, or social login)**
+* **Snap‑Scan‑Share workflow** – capture photo, auto‑crop, OCR price & brand, add manual metadata.
+* **Geo‑tagging & time‑stamping** for every special.
+* **Real‑time feed & search** filtered by distance, store, category, keyword.
+* **Collaborative shopping list** (create, share, edit in real time).
+* **In‑app messenger** contextual to a special and to shopping‑list groups.
+* **Token wallet & payment gateway** – send/receive **iShopp ZAR‑pegged tokens**, pay participating South‑African retailers, and settle to fiat (PayShap or EFT) for merchants.
+* **Store‑locator map** showing specials near you with deep‑links to navigation apps.
+* **Basic content moderation & abuse reporting** (image review queue, profanity filter).
+* **Admin dashboard (web)** for brand partners to upload official offers and redeem tokens.
+* **Analytics & logging** for usage, error, and promotion engagement.
+
+\=== Should Have
+
+* **Barcode/QR scan** to identify product and auto‑fill description.
+* **Push notifications** for nearby or subscribed‑brand specials.
+* **Gamified rewards** – award bonus tokens for first uploader, verified price match, etc.
+* **Offer‑verification workflow** (crowd‑votes + moderator override).
+* **Offline capture & later sync** when connectivity is restored.
+* **Dark mode** and basic accessibility support.
+* * International currency support beyond ZAR.
+* On‑device machine‑learning for object detection.
+* Multi‑language localisation beyond English 
+* **Retailer POS integration** for automatic token redemption.
+* **Dynamic pricing‑insights dashboard** sold to FMCG brands.
+* **Augmented‑reality (AR) aisle view** overlaying specials.
+* **Social share to WhatsApp/Facebook** with deep‑link back to app.
+
+Vision & Problem
+
+* Rising cost of groceries → shoppers hunt deals.
+* Information is fragmented across flyers & word‑of‑mouth.
+* **iShopp** crowdsources real‑time in‑store specials, helping South‑African families **save time & money**.
+
+
+
+Deliver a production app that lets users:
+
+. Snap‑Scan‑Share verified specials.
+. Search a geo‑feed of offers.
+. Maintain collaborative shopping lists.
+. Transfer & spend **ITK tokens** (ZAR‑pegged) via a central ledger.
+
+
+ Must‑Have Features
+
+* Auth (email/SMS) & profiles.
+* Offer capture with OCR price parse.
+* Real‑time feed & search filters.
+* Token wallet, PayShap/EFT merchant payouts.
+* In‑app chat & list collaboration.
+* Map‑based store locator.
+* Basic moderation & analytics.
+
+Examples to maybe to create a comprehensive plan for this supermarket specials sharing platform:
+
+Created shared/schema.ts
+
+Created server/storage.ts
+
+Created server/routes.ts
+
+Created client/src/index.css
+
+Created client/src/lib/utils.ts
+
+Created client/src/App.tsx
+
+Created client/src/pages/home.tsx
+
+Created client/src/components/header.tsx
+
+Created client/src/components/category-stories.tsx
+
+Created client/src/components/deal-post.tsx
+
+Created client/src/components/bottom-nav.tsx
+
+Created client/src/components/post-modal.tsx
